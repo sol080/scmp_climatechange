@@ -12,7 +12,7 @@ The research question is **How does the Hong Kong-based electronic newspaper Sou
 Online news articles of the outlet with the keyword “climate change” from 01/09/2016-31/12/2017 were obtained from Nexis Uni with the archive’s engine search. The dataset is not openly accessible according to [Terms and Conditions for accessing Nexis Uni](https://guides.lib.uchicago.edu/lexisnexis#:~:text=Sciences%2C%20Social%20Sciences-,Terms%20and%20Conditions%20for%20accessing%20Nexis%20Uni,not%20permitted%20under%20our%20license), however, the aggregated analysis results can be found in this repository. 
 
 During the selected timeframe, several important international events occurred: the Paris Agreement (2015) came into force on 4th November 2016, which was followed by the presidency of Donald Trump and the withdrawal of the US from the accord (June - September 2017). 
-The collected dataset contains 255 entries (in separate text files) with metadata (published date, word count, and several topic/industry/geography labels) and articles' contents (title and body text). To preprocess the data for analysis, three procedures were carried out. (More details can be found [here]())
+The collected dataset contains 255 entries (in separate text files) with metadata (published date, word count, and several topic/industry/geography labels) and articles' contents (title and body text). To preprocess the data for analysis, three procedures were carried out.
 
 - Extracting metadata and content from individual entry files
 - Lematizing words in articles' title and body text using stanza lemmatizer
@@ -20,7 +20,7 @@ The collected dataset contains 255 entries (in separate text files) with metadat
 
 3. Analysis
    
-The analysis was done exploratively, with three aspects to consider: the volume of media coverage, the content (word-level and topic-level), and the fluctuation over time of these two features. Though they are intertwined in the analysis, it is divided into two parts, one focusing on media volume is available [here]() and another part on quantitative content analysis can be found [here]() (both include the source code and visualized results).
+The analysis was done exploratively, with three aspects to consider: the volume of media coverage, the content (word-level and topic-level), and the fluctuation over time of these two features. Though they are intertwined in the analysis, it is divided into two parts, one focusing on media volume is available [here](https://github.com/sol080/scmp_climatechange/blob/main/volume_analysis.ipynb) and another part on quantitative content analysis can be found [here](https://github.com/sol080/scmp_climatechange/blob/main/content_analysis.ipynb) (both include the source code for relevant preprocessing, analysis and visualized results).
 
-For more detailed analysis and discussion, read the manuscript [here]().
+For more detailed analysis and discussion, read the manuscript [here](https://github.com/sol080/scmp_climatechange/blob/main/Anh%20Duong%20Nguyen%20(2024)%20-%20Climate%20change%20media%20discourse%20in%20Hong%20Kong.pdf).
 
